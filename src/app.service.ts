@@ -8,10 +8,6 @@ export class AppService {
   private appInfo: AppInfoDto;
   private readonly logger = new Logger(AppService.name);
 
-  getHello(): string {
-    return 'Hello World!';
-  }
-
   async onModuleInit() {
     await this.getBackendInfo();
   }
