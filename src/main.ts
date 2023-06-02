@@ -4,6 +4,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 import helmet from 'helmet';
+import { setupSwagger } from './common/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -13,6 +14,8 @@ async function bootstrap() {
   if (process.env.NODE_ENV == 'dev') {
     Logger.debug('Running as DEV mode');
   }
+
+  await setupSwagger(app);
 
   const port = parseInt(process.env.PORT) || 8080;
   await app.listen(port);

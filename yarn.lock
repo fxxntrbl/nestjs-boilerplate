@@ -3615,6 +3615,11 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+nestjs-swagger-dto@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/nestjs-swagger-dto/-/nestjs-swagger-dto-3.5.0.tgz#f86667d8e674e89074218fb4ab0149f1b35a8fe7"
+  integrity sha512-Yowa/JIsfLix/mfCtw1ZtjtYBtyJd2KZlYwENzZbbhJIqxmq5pZR4bMvZSiXygsSDiWARIoNa+439WZkM+CUkg==
+
 node-abort-controller@^3.0.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/node-abort-controller/-/node-abort-controller-3.1.1.tgz#a94377e964a9a37ac3976d848cb5c765833b8548"
