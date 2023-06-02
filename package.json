@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "NestJS Boilerplate",
   "author": "조현우 (me@bocchitherock.kr)",
   "private": true,
   "license": "MIT",
